@@ -18,11 +18,6 @@
                 {!! Form::password('password', ['class' => 'form-control']) !!}
             </div>
             
-            <div class="form-group">
-                {!! Form::label('password_confirmation', 'パスワード（確認）') !!}
-                {!! Form::password('password_confirmation', ['class' => 'form-control']) !!}
-            </div>
-            
             <div class="text-right">
                 {!! Form::submit('ログイン', ['class' => 'btn btn-success']) !!}
             </div>
