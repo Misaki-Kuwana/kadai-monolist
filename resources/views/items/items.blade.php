@@ -21,9 +21,9 @@
                                     @include('items.have_button', ['item' => $item])
                                 @endif
                             </div> 
-                       </div>
+                        </div>
                     </div>
-                    </div>
+                </div>
             </div>
         @endforeach
     </div>
